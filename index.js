@@ -14,6 +14,6 @@ const PORT = process.env.PORT || 5000;
 app.use(router.BASE_PATH, router.router);
 
 //app.listen(PORT, HOST);
-app.listen(PORT, HOST);
+app.listen(PORT);
 
 console.log(`[${new Date().toLocaleString()}] - Server at ${HOST}:${PORT}`);
